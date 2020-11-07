@@ -1,27 +1,97 @@
 # Angu2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+# Github search
+#### An Angular app that let's you find Git Profiles and Repositories, 22/08/2019
+### **This project was done using ANGULAR-Cli Version 8.**
 
-## Development server
+## Description
+This is a **Github search** application that searches for user and displays their profile info using the ***Github API.***
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories.
 
-## Code scaffolding
+GitHub API was used to retrieve this information. This API allows ***5,000*** requests per hour with an API key, but only 60 requests per hour _without_ one.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## User Story
 
-## Build
+- Users can enter Github user info info a form and submit it.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Users can see names and descriptions of person's public repositories.
 
-## Running unit tests
+- Users can make up to 5000 requests per hour due to Github-API integration.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Prerequisites
 
-## Running end-to-end tests
+To work with Github Lookup you need to have some few prerequisites.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+This include the following mentioned below.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Node.js
+
+- Angular-JS framework
+
+- Watchman
+
+- Typescript
+
+- Terminal
+
+If you dont have this requirements you could use the link above to help with the installation guide.
+
+## Screenshot
+<img src="src/gitlookup.png" width="1000">
+
+
+# **SETUP/INSTALLATION.**
+
+### **To work With Github search**
+
+1. You will need Internet connection.
+
+2. You will also need a Webpage URL to load in URL's:
+
+3. To get to use **GIT-search** fist you need to get to the Github-API-Search--Update-Angular-cli-8 repository.
+
+4. From there you can access Git-Lookup.
+
+5. **Clone** the project.
+
+6. Once you done with cloning and project is on your device.
+
+7. get into project folder (cd into project).
+
+8. On your **bash** terminal Run the command:-
+
+```
+ng serve
+```
+
+9. Open your preferred **web browser** and load it on local host:
+
+```
+http://localhost:4200/
+```
+
+10. This will load for you Github Lookup
+
+
+
+## Known Bugs
+No known bugs at the moment.
+## Author
+Kirezi Bana Hortense
+## Technologies used
+* HTML
+* CSS
+* Angular
+* Bootstrap
+* Angular CLI
+* Type Script
+
+## Support and Contact
+
+email: hortensebana32@gmail.com
+
+
+## License
+This project is licensed under the MIT 
